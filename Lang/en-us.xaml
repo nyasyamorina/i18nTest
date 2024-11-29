@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <LanguageName>English</LanguageName>
+  <SelectLanguage>Select Language: </SelectLanguage>
+  <UpdateLanguagesToolTip>Update available languages</UpdateLanguagesToolTip>
+</root>

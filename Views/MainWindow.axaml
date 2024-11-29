@@ -1,0 +1,21 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="using:i18nTest.ViewModels"
+        x:Class="i18nTest.Views.MainWindow" x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico" Title="i18nTest">
+
+    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"
+                   Text="{Binding SelectLanguageText}" />
+        <ComboBox VerticalAlignment="Center" Margin="5"
+                  ItemsSource="{Binding AvailableLanguages}" SelectedIndex="{Binding SelectedLanguageIndex}"
+                  IsEnabled="{Binding NotChangingLanguage}" />
+        <Button VerticalAlignment="Center" Margin="5" ToolTip.Tip="{Binding UpdateLanguagesToolTip}"
+                Command="{Binding UpdateLanguagesCommand}" IsEnabled="{Binding NotChangingLanguage}">
+            <PathIcon Data="{StaticResource arrow_sync_regular}"/>
+        </Button>
+    </StackPanel>
+
+</Window>

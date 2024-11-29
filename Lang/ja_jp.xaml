@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <LanguageName>日本語</LanguageName>
+  <SelectLanguage>言語を選択して: </SelectLanguage>
+  <UpdateLanguagesToolTip>利用可能な言語を更新</UpdateLanguagesToolTip>
+</root>
