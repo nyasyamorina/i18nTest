@@ -4,7 +4,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="using:i18nTest.ViewModels"
         x:Class="i18nTest.Views.MainWindow" x:DataType="vm:MainWindowViewModel"
-        Icon="/Assets/avalonia-logo.ico" Title="i18nTest">
+        Title="i18nTest">
 
     <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Margin="5"
